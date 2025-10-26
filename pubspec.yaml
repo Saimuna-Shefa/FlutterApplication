@@ -1,0 +1,41 @@
+name: flutter_application_2
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Base UI
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.1
+
+  # Firebase packages
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.3
+
+  # Charts
+  fl_chart: ^0.65.0 # or latest
+
+  # Any other additional dependencies you plan to use can go here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add this if you're using local assets (e.g. icons, images)
+  # assets:
+  #   - assets/icons/
+  #   - assets/images/
